@@ -1,0 +1,18 @@
+{
+    "name": "mend-detection-qa/composer-provide-virtual-package-probe",
+    "description": "Composer probe: a package uses provide to satisfy a virtual package requirement. psr/log-implementation is a virtual interface; monolog/monolog satisfies it via its provide declaration.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "psr/log-implementation": "*",
+        "monolog/monolog": "^3.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {}
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
